@@ -219,6 +219,8 @@ main p, span{
 }
 iframe{
     width: 100%;
+    border-radius:25px;
+    height:500px;
 }
 footer{
     bottom: 0;
