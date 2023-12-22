@@ -1,5 +1,9 @@
+body{
+    background-color: grey;
+
+}
 header{
-    background-color: #1E1E1E;
+    background-color: whitesmoke;
     height: 70px;
     position: sticky;
     top: 0;
@@ -18,7 +22,7 @@ header{
 }
 .container .pp{
     display: table-cell;
-    color: white;
+    color: black;
     vertical-align: middle;
     font-size: 3.5rem;
     z-index: 2;
@@ -35,7 +39,7 @@ nav{
     padding: 0;
     position: sticky;
     z-index: 2;
-    background-color: #272727;
+    background-color: white;
 }
 #menu{
     width: 100%;
@@ -55,13 +59,13 @@ nav{
 #menu ul li a{
     text-decoration: none;
     height: 40px;
-    color: white;
+    color: black;
     display: block;
     font-size: 1.5rem;
-    background-color: #272727;
+    background-color: white;
 }
 #menu ul li a:hover{
-    background: #272727;
+    background: white;
     color: rgb(225, 0, 255);
     border-radius: 5px;
     transition: 1s;
@@ -77,20 +81,20 @@ aside{
     padding-top: 15px;
     width: 20%;
     float: left;
-    background-color: #272727;
-    border: 1px solid white;
+    background-color: white;
+    border: 1px solid black;
     position: static;
     border-radius: 10px 10px 10px 10px;
 
 }
 aside h2{
     text-align:    center;
-    color: white;
+    color: black;
     text-decoration: underline;
 }
 aside h4{
     text-align: center;
-    color: white;
+    color: black;
 }
 aside div{
     padding: 8;
@@ -103,7 +107,7 @@ aside div img{
 }
 aside div p{
     text-align: center;
-    color: white;
+    color: black;
 }
 aside div a:hover{
     color: rgb(225, 0, 255);
@@ -117,8 +121,8 @@ aside div a:visited{
     margin: 0;
     padding-top: 15px;
     float: right;
-    background-color: #272727;
-    border: 1px solid white;
+    background-color: white;
+    border: 1px solid black;
     position: static;
     border-radius: 10px 10px 10px 10px;
     width: 19.9%;
@@ -129,7 +133,7 @@ aside div a:visited{
 }
 .reklam h2{
     text-align: center;
-    color: white;
+    color: black;
     text-decoration: underline;
 }
 .reklam img{
@@ -137,11 +141,11 @@ aside div a:visited{
     margin: 0 5%;
 }
 .reklam h3, h4,p{
-    color: white;
+    color: black;
     text-align: center;
 }
 .reklam div a:active{
-    color: white;
+    color: black;
 }
 .reklam div a:visited{
     color: fuchsia;
@@ -150,11 +154,11 @@ aside div a:visited{
     color: fuchsia;
 }
 .footballers{
-    background-color: #272727;
-    border: 1px solid white;
+    background-color: white;
+    border: 1px solid black;
     border-radius: 10px 10px 10px 10px;
     margin-left: 80%;
-    color: white;
+    color: black;
     text-align: center;
     margin-top: 570px; 
     position: static;
@@ -169,25 +173,25 @@ aside div a:visited{
     list-style-type: none;
 }
 .kruto a:hover{
-    color: white;
+    color: black;
     text-decoration: none;
 }
 .kruto a:link{
-    color: white;
+    color: black;
     text-decoration: none;
 }
 .kruto a:visited{
-    color: white;
+    color: black;
 }
 main{
     width: 57.8%;
-    background-color: #272727;
+    background-color: white;
     padding: 20px 20px;
     top: 111px;
     margin-left: 20.1%;
     margin-right: 20.1%;
     
-    color: white;
+    color: black;
     text-align: center;
     border-radius: 10px;
     position: absolute;
@@ -219,6 +223,7 @@ main p, span{
 }
 iframe{
     width: 100%;
+    border-radius: 25px;
 }
 footer{
     bottom: 0;
@@ -228,6 +233,6 @@ footer{
     display: flex;
     width: 100%;
     clear: left;
-    background-color: #272727;
-    color: white;
+    background-color: whitesmoke;
+    color: black;
 }
